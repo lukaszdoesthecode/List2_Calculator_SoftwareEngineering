@@ -18,4 +18,14 @@ public class Calculator {
     public float sub(float a, float b){
         return a-b;
     }
+
+    /** Function multiplying two numbers (double type).
+     *
+     * @param a - fist parameter (double)
+     * @param b - second parameter (double)
+     * @return - sum of both numbers
+     */
+    public double mul(double a, double b){
+        return a*b;
+    }
 }
