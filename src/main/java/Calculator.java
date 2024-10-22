@@ -13,7 +13,7 @@ public class Calculator {
      *
      * @param a - fist parameter (float)
      * @param b - second parameter (float)
-     * @return - sum of both numbers
+     * @return - difference of both numbers
      */
     public float sub(float a, float b){
         return a-b;
@@ -23,9 +23,19 @@ public class Calculator {
      *
      * @param a - fist parameter (double)
      * @param b - second parameter (double)
-     * @return - sum of both numbers
+     * @return - multiplication of both numbers
      */
     public double mul(double a, double b){
         return a*b;
+    }
+
+    /** Function dividing two numbers (double type).
+     *
+     * @param a - fist parameter (double)
+     * @param b - second parameter (double)
+     * @return - quotient of both numbers
+     */
+    public double div(double a, double b){
+        return a/b;
     }
 }
