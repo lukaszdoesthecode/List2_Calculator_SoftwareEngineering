@@ -8,4 +8,14 @@ public class Calculator {
     public float add(float a, float b){
         return a+b;
     }
+
+    /** Function subtracting two floating-point numbers
+     *
+     * @param a - fist parameter (float)
+     * @param b - second parameter (float)
+     * @return - sum of both numbers
+     */
+    public float sub(float a, float b){
+        return a-b;
+    }
 }
