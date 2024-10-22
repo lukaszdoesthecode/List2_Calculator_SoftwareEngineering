@@ -36,6 +36,11 @@ public class Calculator {
      * @return - quotient of both numbers
      */
     public double div(double a, double b){
-        return a/b;
+        try{
+            return a/b;
+        }catch (ArithmeticException e){
+            System.out.println("Division is not possible!");
+            return Double.NaN;
+        }
     }
 }
